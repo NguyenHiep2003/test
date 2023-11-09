@@ -22,6 +22,7 @@ async function bootstrap() {
     }),
   );
   await app.listen(port);
+  ;
   Logger.debug(`Server is listening on port ${port}...`);
 }
 bootstrap();
