@@ -8,24 +8,10 @@ const hehe = 1;
 const kkkk='kkk'
 const kkkk='kkk'
 
-const kkkk='kkk'
+const hello= 'hello'
+const bro= 'bro'
 
-const kkkk='kkk'
-const hehe = 1;
-const kkkk='kkk'
-const kkkk='kkk'
 
-const kkkk='kkk'
-
-const kkkk='kkk'
-const kkkk='kkk'
-const hehe = 1;
-const kkkk='kkk'
-const kkkk='kkk'
-
-const kkkk='kkk'
-
-const kkkk='kkk'
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   const port = process.env.PORT || 3000;
